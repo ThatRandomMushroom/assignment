@@ -1,6 +1,5 @@
 import sys
 from dictionary import alpha
-running = True
 def main():
     ascinput = str(input("Write your text: \n>>> "))
     if ascinput == "":
@@ -13,8 +12,7 @@ def main():
     except KeyError:
         print("You have entered a symbol that is not in the dictionary yet")
 
-if __name__ == "__main__":
-    main()
 
 while True:
-    main()
+    if __name__ == "__main__":
+        main()
